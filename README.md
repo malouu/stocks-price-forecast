@@ -1,0 +1,1 @@
+Stock analysis and price forecasting web app built using the Streamlit and yfinance libraries.
