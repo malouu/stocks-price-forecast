@@ -230,6 +230,15 @@ AutoArima_HQIG(data)
 st.subheader('Out of Bag Minimization')
 AutoArima_OOB(data)     
 
+# ---- HIDE STREAMLIT STYLE ----
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
     
     
     
